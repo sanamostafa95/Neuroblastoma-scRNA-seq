@@ -1,0 +1,4 @@
+"source","target","ligand","receptor","prob","pval","interaction_name","interaction_name_2","pathway_name","annotation","evidence"
+"16","DUSP4hi CD4+ T","NECTIN2","TIGIT",0.00359439503966965,0,"NECTIN2_TIGIT","NECTIN2 - TIGIT","NECTIN","Cell-Cell Contact","KEGG: hsa04514"
+"16","IL10hi Macrophage","NECTIN2","TIGIT",0.00115649890579405,0,"NECTIN2_TIGIT","NECTIN2 - TIGIT","NECTIN","Cell-Cell Contact","KEGG: hsa04514"
+"16","NK","NECTIN2","TIGIT",0.000675152520101821,0,"NECTIN2_TIGIT","NECTIN2 - TIGIT","NECTIN","Cell-Cell Contact","KEGG: hsa04514"
