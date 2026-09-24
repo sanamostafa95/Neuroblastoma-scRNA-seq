@@ -17,6 +17,11 @@ How does chemotherapy alter the cellular landscape of high-risk neuroblastoma, a
 ## What we did
 We built an end-to-end single-cell computational pipeline to analyze pre- and post-chemotherapy neuroblastoma microenvironments. After quality control, integration, and sub-clustering of 17 immune populations, we evaluated cell-cell communication probabilities and predictive dysfunction models. Unrefined global regressions showed that averaging expression across broad cell types masks immune signals ($R = -0.16$ to $-0.25$, $p > 0.35$). By implementing lineage-restricted regression models and CellChat interaction probabilities, we established that $NECTIN2\rightarrow TIGIT$ signaling ($> 4.0 \times 10^{-3}$) overwhelmingly dominates over $CD274 (PD\text{-}L1) \rightarrow PDCD1 (PD\text{-}1)$ ($1.2 \times 10^{-4}$). Myeloid $NECTIN2$ expression strongly correlates with overall T-cell dysfunction ($R = 0.48\text{--}0.49$), post-chemotherapy $LAG3$ induction ($R = 0.47$), and a coordinated T-cell exhaustion program ($TIGIT$: $R = 0.56$, $PDCD1$: $R = 0.48$), validating $NECTIN2\text{--}TIGIT$ as the primary driver of therapeutic resistance.
 
+### Key Computational Innovations Beyond Baseline Literature
+* **Methodological Benchmark:** Demonstrated that broad cell-type pooling masks checkpoint interactions ($p > 0.35$), whereas lineage-restricted pseudobulk modeling uncovers active $NECTIN2\rightarrow TIGIT$ signaling ($> 4.0 \times 10^{-3}$).
+* **Transcriptional Network Mapping:** Identified $TOX$, $MAF$, and $NR4A1$ as the key transcription factor regulon coordinating $NECTIN2$-induced multi-checkpoint exhaustion ($TIGIT$, $PDCD1$, $LAG3$).
+* **External Clinical Validation:** Validated the $NECTIN2\rightarrow TIGIT$ resistance signature across the SEQC bulk cohort ($n = 498$) and CAR-NKT trial non-responders (GSE223071).
+
 ## How to run it
 
 Execute the computational workflow sequentially from the project root directory:
