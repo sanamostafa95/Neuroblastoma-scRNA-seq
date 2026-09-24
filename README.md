@@ -54,7 +54,7 @@ Execute the computational workflow sequentially from the project root directory:
 *Single-cell UMAP displaying 17 annotated T, NK, and myeloid subclusters across pre- and post-chemotherapy conditions.*
 
 ![Subcluster Checkpoint Signaling Strength](figures/myeloid_subcluster_signaling.png)  
-*CellChat interaction probability modeling demonstrates that $NECTIN2\rightarrow TIGIT$ signaling ($> 4.0 \times 10^{-3}$) is active across endothelial, stromal, and myeloid subclusters, whereas $CD274 \rightarrow PDCD1$ signaling ($1.2 \times 10^{-4}$) is virtually absent.*
+*CellChat interaction probability modeling demonstrates that NECTIN2-TIGIT signaling (> 4.0 \times 10^{-3}) is active across endothelial, stromal, and myeloid subclusters, whereas CD274 \rightarrow PDCD1 signaling (1.2 \times 10^{-4}) is virtually absent.*
 
 ![Myeloid Checkpoint Ligands vs T-Cell Exhaustion Program Heatmap](figures/exhaustion_program_heatmap.png)  
 *Spearman correlation heatmap demonstrating that myeloid NECTIN2 directly coordinates T-cell multi-checkpoint co-expression (TIGIT: R = 0.56, PDCD1: R = 0.48, LAG3: R = 0.30), outperforming CD274.*
