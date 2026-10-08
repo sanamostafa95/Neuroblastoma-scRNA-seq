@@ -19,7 +19,7 @@ We built an end-to-end single-cell computational pipeline to analyze pre- and po
 
 ### Key Computational Innovations Beyond Baseline Literature
 * **Methodological Benchmark:** Demonstrated that broad cell-type pooling masks checkpoint interactions ($p > 0.35$), whereas lineage-restricted pseudobulk modeling uncovers active $NECTIN2\rightarrow TIGIT$ signaling ($> 4.0 \times 10^{-3}$).
-* **Transcriptional Network Mapping:** Identified that the classical transcription factor $TOX$, $MAF$, and $NR4A1$ showed negligible correlation with myeloid ligands, proving these T cells are not terminally exhausted. Instead, the true resistance mechanism is induced by surface multi-checkpoint co-suppression driven by ($TIGIT$, $PDCD1$, $LAG3$).
+* **Transcriptional Network Mapping:** Identified that the classical transcription factor $TOX$, $EOMES$, and $NFATC1$ showed negligible correlation with myeloid ligands, proving these T cells are not terminally exhausted. Instead, the true resistance mechanism is induced by surface multi-checkpoint co-suppression driven by ($TIGIT$, $PDCD1$, $LAG3$).
 * **External Clinical Validation:** Supported the $NECTIN2\rightarrow TIGIT$ resistance signature across the SEQC bulk cohort ($n = 498$) and CAR-NKT trial non-responders (GSE223071).
 
 ## How to run it
